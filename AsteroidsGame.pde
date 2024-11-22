@@ -33,6 +33,7 @@ public void keyPressed(){
    bob.myYspeed = 0;
    bob.myCenterX = (int)(Math.random()*801);
    bob.myCenterY = (int)(Math.random()*801);
+   bob.myPointDirection = (int)(Math.random()*360);
   }
 }
 
