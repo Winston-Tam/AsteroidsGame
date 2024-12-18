@@ -18,7 +18,7 @@ public void draw()
   background(0);
   bob.show();
   bob.move();
-  for (int i = 0; i < 100; i++){
+  for (int i = 0; i < random.length; i++){
     random[i].show();
   }
 }
