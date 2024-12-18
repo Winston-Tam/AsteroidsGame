@@ -29,4 +29,3 @@ class Asteroid extends Floater{
      return (int)myCenterY;
    }
 }
-
