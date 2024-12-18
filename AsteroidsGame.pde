@@ -1,3 +1,4 @@
+ArrayList<Asteroid> rocks = new ArrayList<Asteroid>();
 Spaceship bob;
 Star [] random = new Star[1000];
 public void setup() 
@@ -6,6 +7,10 @@ public void setup()
   bob = new Spaceship();
   for (int i = 0; i < random.length; i++){
     random[i] = new Star();
+  }
+for(int i = 0; i<10; i++){
+    Asteroid hi = new Asteroid();
+    rocks.add(hi);
   }
 }
 public void draw() 
